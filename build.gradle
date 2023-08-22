@@ -18,6 +18,13 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation('org.springframework.boot:spring-boot-starter-web')
+	implementation('com.mysql:mysql-connector-j:8.1.0')
+	implementation('com.baomidou:mybatis-plus-boot-starter:3.5.3.1')
+	implementation('com.baomidou:mybatis-plus-generator:3.5.3.1')
+	implementation('org.freemarker:freemarker')
+	implementation('org.projectlombok:lombok:1.18.26')
+	implementation('org.springframework.boot:spring-boot-starter-data-redis')
 }
 
 tasks.named('test') {
