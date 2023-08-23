@@ -37,6 +37,7 @@ public class UserController {
         if (data != null) {
             return Result.success(data);
         }
-        return Result.fail(20002, "用户名或密码错误");
+        return Result.fail(20003, "用户名或密码错误");
     }
+
 }
